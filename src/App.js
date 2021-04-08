@@ -1,8 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
 import UsersList from './UsersList'
-import UserShow from './userShow'
-
+import UserShow from './UserShow'
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 
 function App() {

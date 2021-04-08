@@ -3,7 +3,6 @@ import axios from 'axios'
 import {Link} from 'react-router-dom'
 import {Card, ListGroup} from 'react-bootstrap'
 
-
 class UsersList extends React.Component{
     constructor(){
         super()

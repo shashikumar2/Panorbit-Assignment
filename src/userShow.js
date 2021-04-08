@@ -28,15 +28,15 @@ class UserShow extends React.Component {
                 <hr/>
                 { Object.keys(this.state.user).length > 0 && (
                 <div>
-                <h4>User Name : {this.state.user.name}</h4>
-                <h4>Email : {this.state.user.email}</h4>
-                <h4>Phone : {this.state.user.phone}</h4>
-                <h4>Website : {this.state.user.website}</h4>
-                <hr/>
-                <h2> Company</h2>
-                <h4>Name : {this.state.user.company.name}</h4>
-                <h4>CatchPhrase : {this.state.user.company.catchPhrase}</h4>
-                <h4>bs : {this.state.user.company.bs}</h4>                
+                        <h4>User Name : {this.state.user.name}</h4>
+                        <h4>Email : {this.state.user.email}</h4>
+                        <h4>Phone : {this.state.user.phone}</h4>
+                        <h4>Website : {this.state.user.website}</h4>
+                        <hr/>
+                        <h2> Company</h2>
+                        <h4>Name : {this.state.user.company.name}</h4>
+                        <h4>CatchPhrase : {this.state.user.company.catchPhrase}</h4>
+                        <h4>bs : {this.state.user.company.bs}</h4>                
                 </div> 
             )}
             </div> 
