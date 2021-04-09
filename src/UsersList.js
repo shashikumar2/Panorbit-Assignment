@@ -26,8 +26,7 @@ class UsersList extends React.Component{
     render(){      
         return(
             <div>
-
-                { this.state.users.length > 0 && (
+                {this.state.users.length > 0 && (
                 <div>
                 <Card style={{ width: '18rem' }}>
                 <Card.Header>Select an account</Card.Header>
