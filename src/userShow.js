@@ -22,6 +22,7 @@ class UserShow extends React.Component {
      }
 
     render() {
+        console.log(this.state.user)
         return (
             <div> 
                 <h2>Profile</h2>
