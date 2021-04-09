@@ -23,7 +23,8 @@ class UsersList extends React.Component{
      })
     }                                 
     
-    render(){      
+    render(){   
+        console.log(this.state.users)   
         return(
             <div>
                 {this.state.users.length > 0 && (
